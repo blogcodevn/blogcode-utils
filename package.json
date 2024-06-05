@@ -1,0 +1,23 @@
+{
+  "name": "@blogcode/utils",
+  "version": "0.0.1",
+  "description": "Utilities for BlogcodeVN",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "git@github.com:blogcodevn/blogcode-utils.git",
+  "author": "Canh Nguyen Van <ngvcanh2014@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/*.js",
+    "dist/*.d.ts"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
